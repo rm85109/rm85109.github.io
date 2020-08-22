@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.corpo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background-color: #F0C3D2;
+}
+
+.corpo form{
+  width:80%;
+  border-radius: 10%;
+}
+
+.corpo fieldset{
+padding:1% 20% 1% 20%;
+/* flex:none; */
+width: 100%;
+background-color: #F53D51;
+}
+
+.corpo button:hover{
+  color: #ECBD41;
+}
+
+.corpo input{
+  width:35%;
+  text-align: center;
+}
+
+.corpo label{
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+.resposta{
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  left:23%;
+}
+
+
+p{
+  text-align: center;
+  font-weight: 800;
+  color: #533ED2;
+}
+
+/* #textoResposta{
+  text-align: center;
+} */
+
+#enviar{
+background-color: #4484D8;
+padding: 1% 2%;
+width:20%;
+font-weight: bolder;
+text-align: center;
+border-width: medium;
+}
+
+#enviar:hover{
+    color: #ECBD41;
+}
+
+#apagar{
+  color: black;
+  background-color: white;
+  padding: 1% 2%;
+  width:20%;
+  font-weight: bolder;
+  text-align: center;
+  border-width: medium;
+}
+
+#apagar:hover{
+  color:#E71306;
+}
