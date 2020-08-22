@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calcule seu IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Calcule seu IMC</h1><br>
+    <div class="corpo">
+      <form class="form" action="index.html" method="post">
+        <fieldset>
+          <label for="nome">Digite seu Nome:</label><br>
+          <input id="nome" type="text"><br>
+          <br>
+          <label for="idade">Digite sua idade:</label><br>
+          <input id="idade" type="number"><br>
+          <br>
+          <label for="peso">Digite seu peso (kg):</label><br>
+          <input id="peso" type="number"><br>
+          <br>
+          <label for="altura">Digite sua altura (m):</label><br>
+          <input id="altura" type="number"><br><br>
+          <button id="enviar" type="button">Calcular</button>
+          <button id="apagar" type="reset">Apagar</button>
+        </fieldset>
+      </form>
+      <br>
+  </div>
+  <p id="textoResposta1"></p>
+  <p id="textoResposta2"></p>
+  <div class="resposta">
+  <img id="abaixoPeso" src="img/abaixoPeso.png" alt="">
+  <img id="idealPeso" src="img/idealPeso.png" alt="">
+  <img id="sobrePeso" src="img/sobrePeso.png" alt="">
+  <img id="grau1Peso" src="img/grau1Peso.png" alt="">
+  <img id="grau2Peso" src="img/grau2Peso.png" alt="">
+  <img id="grau3Peso" src="img/grau3Peso.png" alt="">
+</div>
+
+  <script type="text/javascript" src=js/script.js></script>
+  </body>
+</html>
